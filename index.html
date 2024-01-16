@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperPage</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .wrapper{
+            display: flex;
+            height: 100%;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        
+        main{
+            background-color: cornsilk;
+            flex: 1;
+            display: flex;
+        }
+
+
+
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        header{
+            background-color: blueviolet;
+            height:120px ;
+            width: 100%;
+        }
+
+        footer{
+            background-color: rgb(113, 35, 186);
+            height:120px ;
+            width: 100%;
+        }
+
+        .left{
+            width: 20%;
+            background-color: grey;
+        }
+        .middle{
+            width: 60%;
+            background-color: rgb(53, 53, 53);
+        }
+        .right{
+            width: 20%;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <main>
+            <div class="left"></div>
+            <div class="middle"></div>
+            <div class="right"></div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>
